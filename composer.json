@@ -1,0 +1,12 @@
+{
+  "require": {
+    "silex/silex": "~1.3",
+    "neoxygen/neoclient": "*",
+    "igorw/config-service-provider": "*"
+  },
+  "autoload": {
+    "psr-0": {
+      "FriendsGraph": "src/"
+    }
+  }
+}

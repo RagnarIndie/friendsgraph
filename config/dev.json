@@ -1,0 +1,11 @@
+{
+  "debug": true,
+  "db": {
+    "alias": "default",
+    "schema": "http",
+    "host": "localhost",
+    "port": 7474,
+    "user": "",
+    "password": ""
+  }
+}
