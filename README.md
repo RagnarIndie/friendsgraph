@@ -71,10 +71,10 @@ Now you can list all generated users using RESTful API:
     * **GET /users/{user_id}/requests** - returns array of the ingoing (in) and outgoing (out) friendship requests. Example request:
     ```
     {
-        id: {id}, #id запрос
-        from: {from_user_id}, #id пользователя который отправил запрос
-        to: {to_user_id}, #id пользователя который должен получить запрос
-        created: {created} #unix timestamp метка - время создания запроса
+        id: {id}, #request id
+        from: {from_user_id}, #sender id
+        to: {to_user_id}, #target user id
+        created: {created} #unix timestamp
     }
     ```
     * **POST /users/{user_id}/requests** - create a new friendship request. user_id - request sender.
